@@ -1,0 +1,65 @@
+.container{
+  position:relative;
+  height:100%;
+  width:100%;
+}
+#log{
+  float:right;
+}
+
+#player{
+  position:absolute;
+  top:0;
+}
+
+#computer {
+  position:absolute;
+  padding: 300px 0px 0px 0px;
+}
+
+#battleGround
+{
+  float:left;
+  padding: 0px 0px 0px 600px;
+}
+
+
+table{
+  border: 3px solid black;
+}
+
+th{
+  border: 1px solid black;
+}
+
+td
+{
+  border: 1px solid black;
+}
+
+img{
+  width:100px;
+  height:100px;
+}
+
+.choices
+{
+  margin-top:50px;
+  text-align:center;
+}
+
+.choice
+{
+  padding: 100px 0px 0px 0px;
+  display:inline-block;
+}
+
+#Uchoices
+{
+  text-align:center;
+  padding: 0px 8px 0px 30px;
+}
+
+p{
+  font-size: 20px;
+}
