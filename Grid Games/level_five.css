@@ -1,0 +1,36 @@
+/**Vicky Guo, Section 83 Even, November 28, 2021**/
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  grid-template-rows: repeat(auto-fill);
+
+}
+
+#title {
+  grid-column: 1/-1; /*this should span the entire page, look into using negative numbers in grid-column-end*/;
+}
+
+.friend {
+    grid-column: span 1;
+}
+.siblings{
+    grid-column: span 2;
+
+}
+
+.auntsAndUncles{
+    grid-row: span 2;
+}
+
+.cousinsAndFriends{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.grandparents
+{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+/* Style other types of family members below*/
