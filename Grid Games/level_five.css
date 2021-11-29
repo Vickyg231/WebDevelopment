@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-  grid-template-rows: repeat(auto-fill);
+  grid-auto-rows: 100px;
 
 }
 
@@ -13,6 +13,10 @@
 .friend {
     grid-column: span 1;
 }
+
+
+/* Style other types of family members below*/
+
 .siblings{
     grid-column: span 2;
 
@@ -33,4 +37,3 @@
     grid-column: span 2;
 }
 
-/* Style other types of family members below*/
