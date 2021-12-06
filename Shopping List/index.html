@@ -1,0 +1,53 @@
+<!--Vicky Guo, Kevin Wang, Section 83 PD. 5/6 12/5/2021-->
+
+<!--Reflection: This project was not as hard as the other one that we did. It took a couple hours to debug and ensure that everything was working properly but I would say it works now. The JavaScript like last time is the one that was the hardest and moving the item down was one of the hardest. This was because during the debugging process, we realize that the program couldn't handle plus one and we resolved it by changed the value of the count and used it to subtract one to make sure it worked. Overall the project was fine and we enhanced the skills on the arrays and manipulating the arrays -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Online Shopping List</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    
+    <!--Downloaded the image of the Logo from the internet--> 
+    <div id = "images">
+      <img src = "ShopListInc.png" alt = Shop Lift Up,Inc.> 
+    </div>
+
+    <h1> Grocery Shopping List </h1>
+
+    <!--Putting the type input so the user can put the food name and the number of the item -->
+    <label>
+      Food Name: <input type = "text" id = "food" />
+      Number of Item: <input type = "number" id = "quantity" />
+    </label>
+
+    <br>
+    <br>
+
+    <!---The buttons created to move the items, add the items and to remove the items-->
+    <div class = "buttons">
+    <button onclick = "add()"> Add Item </button>
+    <button onclick = "remove()"> Remove Item </button>
+    <button onclick = "moveUp()"> Move Item up </button>
+    <button onclick = "moveDown()"> Move Item down </button>
+    </div>
+
+
+  <!--Alerts to state if there any trouble -->
+    <div>
+      <p id = "alerts">Alerts: </p>
+    </div>
+
+  <!--The list of the food that the user added to the list-->
+    <div>
+      <h3>Food currently in list </h3>
+      <div id = "displayFood"><div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
