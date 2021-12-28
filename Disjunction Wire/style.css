@@ -1,0 +1,19 @@
+table{
+  border: 3px solid black;
+}
+
+th{
+  border: 2px solid black;
+}
+
+td{
+  border: 1px solid black;
+}
+
+
+/** Fit the data all into a smaller container in the page so it is not overwhelming to look at when the page loads */
+.tables {
+  max-width: min-content;
+  max-height: 500px;
+  overflow: scroll;
+}
